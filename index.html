@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09090c">
+  <meta name="description" content="PREMIUM UA — українська гільдія Free Fire. Народжені лідирувати. Створені домінувати.">
+  <title>PREMIUM UA — Official Guild</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#08080b;--panel:#111116;--panel2:#17171e;--red:#ff2438;--red2:#a90019;--white:#f7f5f5;--muted:#a5a3ad;--line:rgba(255,255,255,.1);--gold:#ffc857}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}body{margin:0;background:var(--bg);color:var(--white);font-family:Manrope,Arial,sans-serif;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 85% 10%,rgba(255,20,48,.10),transparent 35%),radial-gradient(ellipse at 5% 65%,rgba(150,0,20,.09),transparent 30%)}
+    a{color:inherit;text-decoration:none}button{font:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--red);font-size:.75rem;font-weight:800;letter-spacing:.22em;text-transform:uppercase}.eyebrow:before{content:"";height:2px;width:28px;background:var(--red);box-shadow:0 0 12px var(--red)}.section{padding:100px 0;position:relative}.section-head{margin-bottom:34px}.section-head h2{font:900 clamp(2.6rem,6vw,5rem)/.95 "Barlow Condensed",sans-serif;text-transform:uppercase;margin:14px 0 12px;letter-spacing:.01em}.section-head h2 span{color:var(--red)}.section-head p{color:var(--muted);max-width:650px;line-height:1.8;margin:0}
+    .nav{position:fixed;top:0;left:0;right:0;z-index:20;background:rgba(7,7,10,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{font:900 1.55rem "Barlow Condensed",sans-serif;letter-spacing:.04em}.brand b{color:var(--red)}.nav-links{display:flex;align-items:center;gap:22px;font-size:.76rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em;color:#d8d6dc}.nav-links a{transition:.2s}.nav-links a:hover{color:var(--red)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--red);background:var(--red);color:white;padding:13px 19px;font-size:.78rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px);transition:transform .2s,box-shadow .2s}.nav-cta:hover,.btn:hover{transform:translateY(-3px);box-shadow:0 8px 28px #ff243844}.btn.outline{background:transparent;border-color:#ffffff40}.btn.small{padding:10px 13px;font-size:.7rem}.menu-btn{display:none;background:none;border:1px solid var(--line);color:white;padding:9px 12px;font-size:1.25rem}
+    .hero{min-height:100svh;padding:130px 0 70px;display:flex;align-items:center;position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(90deg,rgba(5,5,7,.97) 0%,rgba(5,5,7,.82) 43%,rgba(5,5,7,.22) 100%),linear-gradient(0deg,var(--bg),transparent 35%),url('assets/premium-ua-hero.png') center/cover no-repeat}.hero:after{content:"";position:absolute;inset:0;z-index:-1;opacity:.18;background:repeating-linear-gradient(120deg,transparent 0 70px,rgba(255,30,55,.25) 71px 72px,transparent 73px 140px);mask-image:linear-gradient(90deg,#000,transparent)}.hero-content{max-width:760px;position:relative}.hero-kicker{font-size:.8rem;font-weight:800;letter-spacing:.3em;color:#e4dfe1;text-transform:uppercase;display:flex;align-items:center;gap:12px}.hero-kicker i{display:block;width:38px;height:2px;background:var(--red)}.hero h1{font:900 clamp(5rem,14vw,11.5rem)/.76 "Barlow Condensed",sans-serif;letter-spacing:-.035em;margin:28px 0 24px;text-transform:uppercase;text-shadow:0 8px 38px #000}.hero h1 span{display:block;color:var(--red);-webkit-text-stroke:1px #ff9aa5;text-shadow:0 0 18px #ff243866,0 8px 0 #69000e;animation:glow 3s ease-in-out infinite}.hero-sub{font-size:clamp(.9rem,2vw,1.12rem);color:#d0ccd1;line-height:1.8;max-width:510px}.hero-actions{display:flex;flex-wrap:wrap;gap:13px;margin-top:30px}.hero-foot{display:flex;gap:28px;flex-wrap:wrap;margin-top:58px;color:#b7b3bc;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.hero-foot strong{display:block;color:white;font:800 1.7rem "Barlow Condensed",sans-serif;letter-spacing:.03em}.hero-foot span{display:block;margin-top:3px}.scroll-mark{position:absolute;right:30px;bottom:36px;writing-mode:vertical-rl;color:#b5b1ba;font-size:.65rem;letter-spacing:.25em;text-transform:uppercase}.scroll-mark:after{content:"";display:inline-block;height:48px;width:1px;background:var(--red);margin-top:14px}
+    @keyframes glow{0%,100%{filter:drop-shadow(0 0 7px #ff243833)}50%{filter:drop-shadow(0 0 22px #ff2438aa)}}@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}.hero-content>*{animation:rise .8s both}.hero-content>*:nth-child(2){animation-delay:.1s}.hero-content>*:nth-child(3){animation-delay:.2s}.hero-content>*:nth-child(4){animation-delay:.3s}
+    .founders{background:#0e0e13;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:26px 0}.founder-row{display:grid;grid-template-columns:1fr 1fr auto;gap:14px;align-items:stretch}.founder{display:flex;align-items:center;gap:15px;padding:15px 18px;background:linear-gradient(110deg,#1b1b23,#101015);border:1px solid var(--line)}.founder-icon{width:46px;height:46px;display:grid;place-items:center;background:#ff243817;border:1px solid #ff243855;color:var(--red);font-size:1.3rem}.founder small{display:block;color:var(--muted);font-size:.65rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800}.founder strong{display:block;font-size:.98rem;margin:3px 0}.founder a{color:#ff7582;font-size:.8rem;font-weight:700}.founder a:hover{text-decoration:underline}.founder-label{display:flex;align-items:center;justify-content:center;padding:10px 18px;font:800 1rem "Barlow Condensed",sans-serif;letter-spacing:.13em;color:var(--red);text-transform:uppercase;border:1px solid var(--line)}
+    .about-grid{display:grid;grid-template-columns:1fr .88fr;gap:46px;align-items:start}.about-image{position:relative}.about-image img{display:block;width:100%;border:1px solid #ff24384d;box-shadow:0 20px 70px #0008}.about-image:after{content:"PREMIUM UA";position:absolute;left:-12px;bottom:18px;background:var(--red);padding:11px 18px;font:900 1.1rem "Barlow Condensed",sans-serif;letter-spacing:.1em;box-shadow:0 8px 24px #0008}.story{color:#c8c5cd;font-size:.91rem;line-height:1.95}.story p{margin:0 0 17px}.story strong{color:white}.story .quote{border-left:3px solid var(--red);padding:13px 18px;background:#ff24380c;color:white;font-weight:800;font-size:1rem;line-height:1.65;margin:22px 0}
+    .members-section{background:linear-gradient(180deg,#0d0d12,#08080b)}.member-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.member-card{background:var(--panel);border:1px solid var(--line);padding:7px;position:relative;overflow:hidden;transition:transform .25s,border-color .25s}.member-card:hover{transform:translateY(-7px);border-color:#ff2438aa}.member-card img{width:100%;height:auto;display:block}.member-card:after{content:"";position:absolute;inset:7px;pointer-events:none;border:1px solid #ff24381e}.member-card .member-note{padding:12px 10px 10px;font-size:.67rem;color:#aaa6b0;letter-spacing:.08em;text-transform:uppercase}
+    .rules-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.rule{padding:25px;background:linear-gradient(135deg,#17171e,#0e0e13);border:1px solid var(--line);position:relative;overflow:hidden}.rule:before{content:attr(data-num);position:absolute;right:14px;top:-16px;font:900 5rem "Barlow Condensed",sans-serif;color:#ffffff08}.rule-head{display:flex;align-items:center;gap:13px;margin-bottom:13px}.rule-icon{width:42px;height:42px;display:grid;place-items:center;color:var(--red);background:#ff243817;border:1px solid #ff24384a;font-size:1.15rem}.rule h3{font:800 1.55rem "Barlow Condensed",sans-serif;text-transform:uppercase;margin:0}.rule p,.rule li{color:#c0bdc5;line-height:1.8;font-size:.86rem}.rule p{margin:0}.rule ul{padding-left:19px;margin:0}.rule li::marker{color:var(--red)}.rules-banner{margin-top:18px;padding:25px;text-align:center;border:1px solid #ff24384f;background:linear-gradient(90deg,#ff243811,#ff243804,#ff243811);font:800 clamp(1.15rem,3vw,1.8rem) "Barlow Condensed",sans-serif;letter-spacing:.05em;text-transform:uppercase}.rules-banner span{color:var(--red)}
+    .wars{background:radial-gradient(ellipse at 50% 0,#3b0710 0,transparent 45%),#0d0d12}.empty-state{padding:50px 24px;text-align:center;border:1px dashed #ff243855;background:#ffffff04}.empty-state .big-icon{font-size:2.4rem;color:var(--red)}.empty-state h3{font:800 2rem "Barlow Condensed",sans-serif;text-transform:uppercase;margin:12px 0}.empty-state p{max-width:530px;margin:0 auto 20px;color:var(--muted);line-height:1.8}.empty-state .hint{font-size:.72rem;color:#77737d}
+    .rank-tabs{display:flex;gap:9px;margin-bottom:20px}.tab{background:transparent;border:1px solid var(--line);color:#c3c0c8;padding:11px 18px;text-transform:uppercase;letter-spacing:.08em;font-size:.72rem;font-weight:900;cursor:pointer}.tab.active,.tab:hover{background:var(--red);border-color:var(--red);color:white}.rank-empty{border:1px solid var(--line);background:var(--panel);padding:32px}.rank-empty p{color:var(--muted);line-height:1.8;margin:0}.rank-table{width:100%;border-collapse:collapse;margin-top:18px;display:none}.rank-table th,.rank-table td{text-align:left;padding:15px;border-bottom:1px solid var(--line)}.rank-table th{font-size:.7rem;color:var(--red);letter-spacing:.1em;text-transform:uppercase}.rank-table td{font-size:.85rem}.rank-table td:first-child{font:800 1.25rem "Barlow Condensed",sans-serif;color:var(--red)}
+    .data-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.data-card{display:flex;align-items:center;gap:16px;padding:21px;background:var(--panel);border:1px solid var(--line);min-width:0}.data-icon{flex:0 0 46px;height:46px;display:grid;place-items:center;background:#ff243817;color:var(--red);border:1px solid #ff24384a;font-size:1.25rem}.data-card small{display:block;color:var(--muted);font-size:.67rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}.data-card strong{display:block;margin-top:4px;overflow-wrap:anywhere;font-size:.95rem}.data-card .copy{margin-left:auto;cursor:pointer;border:1px solid var(--line);background:transparent;color:#ddd;padding:8px 10px;font-size:.7rem}.social-row{display:flex;flex-wrap:wrap;gap:13px;margin-top:24px}.social-row .btn{min-width:190px}.btn.telegram{background:#168bd0;border-color:#168bd0}.btn.tiktok{background:#15151b;border-color:#57545e}.footer{padding:30px 0;border-top:1px solid var(--line);background:#060609}.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;color:#77737e;font-size:.72rem}.footer-logo{font:900 1.3rem "Barlow Condensed",sans-serif;color:white;letter-spacing:.08em}.footer-logo span{color:var(--red)}.to-top{position:fixed;bottom:20px;right:20px;width:44px;height:44px;background:var(--red);color:white;display:grid;place-items:center;z-index:15;box-shadow:0 5px 20px #0008}
+    @media(max-width:900px){.nav-links{gap:12px;font-size:.67rem}.nav-cta{display:none}.member-grid{grid-template-columns:repeat(3,1fr)}.about-grid{grid-template-columns:1fr;gap:28px}.about-image{max-width:760px}.founder-row{grid-template-columns:1fr 1fr}.founder-label{grid-column:1/-1;min-height:40px}.hero{background-position:58% center}.hero-content{max-width:650px}.hero h1{font-size:clamp(5rem,16vw,9rem)}}
+    @media(max-width:650px){.wrap{width:min(100% - 28px,1180px)}.section{padding:70px 0}.nav-inner{height:66px}.menu-btn{display:block}.nav-links{display:none;position:absolute;top:66px;left:0;right:0;background:#0a0a0e;border-bottom:1px solid var(--line);padding:18px 22px;flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a{padding:13px 0;border-bottom:1px solid var(--line);font-size:.78rem}.hero{min-height:93svh;padding:115px 0 55px;background-position:60% center;background-image:linear-gradient(90deg,rgba(5,5,7,.94),rgba(5,5,7,.7)),linear-gradient(0deg,var(--bg),transparent 45%),url('assets/premium-ua-hero.png')}.hero h1{font-size:clamp(4.7rem,21vw,7.5rem)}.hero-sub{font-size:.9rem}.hero-foot{gap:18px;margin-top:38px}.hero-foot strong{font-size:1.45rem}.scroll-mark{display:none}.founder-row{grid-template-columns:1fr}.founder-label{grid-column:auto}.member-grid{grid-template-columns:repeat(2,1fr);gap:10px}.member-card{padding:5px}.member-card:after{inset:5px}.member-card .member-note{padding:8px 5px;font-size:.58rem}.rules-grid,.data-grid{grid-template-columns:1fr}.rule{padding:20px}.data-card{padding:16px}.data-card strong{font-size:.85rem}.social-row .btn{flex:1;min-width:150px}.footer-inner{align-items:flex-start;flex-direction:column}.section-head h2{font-size:3.4rem}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#home" aria-label="PREMIUM UA — на головну">PREMIUM <b>UA</b></a>
+    <nav class="nav-links" id="navLinks" aria-label="Головна навігація">
+      <a href="#about">Про нас</a><a href="#members">Склад</a><a href="#rules">Вступ</a><a href="#wars">Guild Wars</a><a href="#ranking">Рейтинг</a><a href="#contacts">Контакти</a>
+    </nav>
+    <a class="nav-cta" href="https://t.me/premiumuaa" target="_blank" rel="noopener">Приєднатися ↗</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Відкрити меню" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div class="hero-content">
+        <div class="hero-kicker"><i></i> Ukrainian Free Fire Guild</div>
+        <h1>PREMIUM <span>UA</span></h1>
+        <p class="hero-sub">Ми не просто повертаємося. Ми пишемо нову історію. Сильна команда, залізна дисципліна та амбіції без меж.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#about">Дізнатися більше <span>↘</span></a>
+          <a class="btn outline" href="https://t.me/premiumuaa" target="_blank" rel="noopener">Наш Telegram ↗</a>
+        </div>
+        <div class="hero-foot">
+          <div><strong>2023</strong><span>Рік заснування</span></div>
+          <div><strong>UA</strong><span>Українська спільнота</span></div>
+          <div><strong>NO LIMITS</strong><span>Наші амбіції</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-mark">Scroll to discover</div>
+  </section>
+
+  <section class="founders" aria-label="Засновники гільдії">
+    <div class="wrap founder-row">
+      <div class="founder"><div class="founder-icon">♛</div><div><small>Засновник гільдії</small><strong>Запорізький</strong><a href="https://t.me/aandriykoo" target="_blank" rel="noopener">@aandriykoo ↗</a></div></div>
+      <div class="founder"><div class="founder-icon">⚔</div><div><small>Засновник гільдії</small><strong>POTUZHNIY UA</strong><a href="https://t.me/Vlados4040" target="_blank" rel="noopener">@Vlados4040 ↗</a></div></div>
+      <div class="founder-label">Built to dominate</div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">Наша історія</span><h2>Більше, ніж <span>гільдія</span></h2><p>Ім’я, яке має історію. Команда, яка має характер. Амбіції, які не знають меж.</p></div>
+      <div class="about-grid">
+        <div class="about-image"><img src="assets/premium-ua-hero.png" alt="Персонажі Free Fire та емблема PREMIUM UA"></div>
+        <div class="story">
+          <p>Історія гільдії <strong>PREMIUM UA</strong> розпочалася у 2023 році, коли вона вперше з’явилася в українському ком’юніті. Тоді ще ніхто не здогадувався, наскільки гучним стане її ім’я. Учасники гільдії стрімко набирали популярність, заявляли про себе та привертали увагу всього українського ком’юніті.</p>
+          <p>Минуло лише три місяці — і PREMIUM UA вже стала однією з найпопулярніших гільдій України. Її склад поповнювали легендарні гравці, ім’я яких знали далеко за межами самої гільдії. PREMIUM UA зростала на очах у всіх, формувала власну історію та залишала помітний слід у ком’юніті. Це був час великих амбіцій, сильних гравців і незабутніх моментів.</p>
+          <p>Але навіть найяскравіші історії проходять через складні випробування. Через певні обставини гільдія припинила своє існування. Здавалося, що одна з найгучніших сторінок її історії перегорнута, а ім’я PREMIUM UA залишиться лише спогадом про минулі часи.</p>
+          <div class="quote">Та справжні легенди не зникають назавжди.</div>
+          <p>Сьогодні PREMIUM UA повертається. Повертаються люди, які колись створювали її історію, і ті, хто готовий написати нову. Цього разу — з новими цілями, масштабними планами та амбіціями, які виходять далеко за межі звичайної гільдії.</p>
+          <p>І вже зараз PREMIUM UA має досягнення, яке вирізняє її серед інших: за заявою гільдії, вона стала першою в історії українського ком’юніті, що створила власний офіційний сайт. Це не просто сторінка в інтернеті — це символ нового етапу розвитку, серйозних намірів і прагнення залишити після себе щось більше, ніж просто результати в грі.</p>
+          <p>PREMIUM UA повертається не для того, щоб жити минулим. Вона повертається, щоб створювати майбутнє. Щоб знову об’єднувати сильних гравців, підкорювати нові вершини та доводити, що справжнє ім’я не втрачає своєї сили навіть із плином часу.</p>
+          <p><strong>Попереду — нова глава. Нові перемоги. Нові легенди.</strong></p>
+          <div class="quote">PREMIUM UA — це більше, ніж гільдія. <br><span style="color:var(--red)">Народжені лідирувати. Створені домінувати.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section members-section" id="members">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">Ті, хто творить історію</span><h2>Склад <span>гільдії</span></h2><p>Кожен учасник — частина команди. Картки учасників додані з наданого тобою PDF.</p></div>
+      <div class="member-grid" id="memberGrid"></div>
+    </div>
+  </section>
+
+  <section class="section" id="rules">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">Умови для нових учасників</span><h2>Правила <span>вступу</span></h2><p>У PREMIUM UA важливі активність, взаємоповага та командний дух.</p></div>
+      <div class="rules-grid">
+        <article class="rule" data-num="01"><div class="rule-head"><div class="rule-icon">◷</div><h3>Вік</h3></div><p>Вступ до гільдії — <strong>від 16 років.</strong></p></article>
+        <article class="rule" data-num="02"><div class="rule-head"><div class="rule-icon">⚡</div><h3>Активність</h3></div><ul><li>Активність у грі — 4–5 днів на тиждень.</li><li>Норма очок гільдії — 2000.</li><li>Норма турніру гільдії — 100 очок.</li></ul></article>
+        <article class="rule" data-num="03"><div class="rule-head"><div class="rule-icon">♧</div><h3>Поведінка</h3></div><ul><li>Адекватність і комунікабельність.</li><li>Повага до учасників та керівництва.</li><li>Відсутність токсичності й зайвих конфліктів.</li></ul></article>
+        <article class="rule" data-num="04"><div class="rule-head"><div class="rule-icon">✓</div><h3>Перевірка</h3></div><ul><li>Хлопці проходять перевірку у відповідального офіцера через СНС.</li><li>Дівчата — за гарні очі. 😉</li></ul></article>
+        <article class="rule" data-num="05" style="grid-column:1/-1"><div class="rule-head"><div class="rule-icon">⚑</div><h3>Обмеження</h3></div><ul><li>Твінки заборонені.</li><li>Дисципліна понад усе.</li><li>Недотримання вимог може стати причиною виключення з гільдії.</li></ul></article>
+      </div>
+      <div class="rules-banner">PREMIUM UA — це активність, дисципліна та командний дух.<br><span>Народжені лідирувати. Створені домінувати.</span></div>
+    </div>
+  </section>
+
+  <section class="section wars" id="wars">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">Битва за репутацію</span><h2>Guild <span>Wars</span></h2><p>Результати кв проти інших гільдій — перемоги, рахунки та історія матчів.</p></div>
+      <div class="empty-state"><div class="big-icon">⚔</div><h3>Арена готується до бою</h3><p>Тут з’являтимуться результати Guild Wars. Надішли назви суперників, дати та рахунки — і їх можна буде оформити в таблицю матчів.</p><div class="hint">Поки що результати не додані, щоб не вигадувати статистику.</div></div>
+    </div>
+  </section>
+
+  <section class="section" id="ranking">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">Хто веде команду вперед</span><h2>Рейтинг <span>учасників</span></h2><p>Щотижневий і щомісячний рейтинг за очками гільдії.</p></div>
+      <div class="rank-tabs"><button class="tab active" data-period="week">За тиждень</button><button class="tab" data-period="month">За місяць</button></div>
+      <div class="rank-empty"><p id="rankMessage">Рейтинг за тиждень ще не завантажено. Додай список учасників та їхні очки — і таблиця зможе показувати топ гравців.</p></div>
+      <table class="rank-table" id="rankTable"><thead><tr><th>#</th><th>Гравець</th><th>Очки</th></tr></thead><tbody></tbody></table>
+    </div>
+  </section>
+
+  <section class="section" id="contacts">
+    <div class="wrap">
+      <div class="section-head"><span class="eyebrow">Зв’язок із командою</span><h2>Дані <span>гільдії</span></h2><p>Стеж за новинами, звертайся до керівництва та приєднуйся до спільноти.</p></div>
+      <div class="data-grid">
+        <div class="data-card"><div class="data-icon">♛</div><div><small>Лідер гільдії</small><strong>@aandriyko</strong></div><a class="copy" href="https://t.me/aandriykoo" target="_blank" rel="noopener">Telegram ↗</a></div>
+        <div class="data-card"><div class="data-icon">⚔</div><div><small>Заступник</small><strong>@Vlados4040</strong></div><a class="copy" href="https://t.me/Vlados4040" target="_blank" rel="noopener">Telegram ↗</a></div>
+      </div>
+      <div class="social-row">
+        <a class="btn telegram" href="https://t.me/premiumuaa" target="_blank" rel="noopener">✈ Telegram-канал ↗</a>
+        <a class="btn tiktok" href="https://www.tiktok.com/@_aandriykoo_?_r=1&_t=ZS-9ApoOmJg14u" target="_blank" rel="noopener">♪ TikTok ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="wrap footer-inner"><a class="footer-logo" href="#home">PREMIUM <span>UA</span></a><div>© <span id="year"></span> PREMIUM UA · Official Guild Website</div><div>Народжені лідирувати. Створені домінувати.</div></div></footer>
+<a class="to-top" href="#home" aria-label="На початок">↑</a>
+<script>
+  const memberGrid = document.getElementById('memberGrid');
+  const memberNames = ['Запорізький','Ромочка ahh','MAKSIMKYYS','ЗЕФІРКА','POTUZHNIY UA','VAKA EВЕТ?','UA BABY YODA','UKR GNOMIK','Гришка ahh','КАКАХА','Латка'];
+  for (let i = 1; i <= 11; i++) {
+    const card = document.createElement('article');
+    card.className = 'member-card';
+    const img = document.createElement('img');
+    img.src = `assets/members/member-${String(i).padStart(2,'0')}.jpg`;
+    img.alt = `Картка учасника PREMIUM UA — ${memberNames[i-1] || 'учасник'}`;
+    img.loading = 'lazy';
+    const note = document.createElement('div');
+    note.className = 'member-note';
+    note.textContent = `Учасник PREMIUM UA · ${String(i).padStart(2,'0')}`;
+    card.append(img, note);
+    memberGrid.append(card);
+  }
+  const menuBtn = document.getElementById('menuBtn');
+  const navLinks = document.getElementById('navLinks');
+  menuBtn.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.textContent = open ? '×' : '☰';
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open'); menuBtn.setAttribute('aria-expanded','false'); menuBtn.textContent='☰';
+  }));
+  document.querySelectorAll('.tab').forEach(tab => tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('rankMessage').textContent = tab.dataset.period === 'week'
+      ? 'Рейтинг за тиждень ще не завантажено. Додай список учасників та їхні очки — і таблиця зможе показувати топ гравців.'
+      : 'Рейтинг за місяць ще не завантажено. Додай список учасників та їхні очки — і таблиця зможе показувати топ гравців.';
+  }));
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
