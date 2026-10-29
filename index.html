@@ -27,7 +27,39 @@
     @media(max-width:650px){.wrap{width:min(100% - 28px,1180px)}.section{padding:70px 0}.nav-inner{height:66px}.menu-btn{display:block}.nav-links{display:none;position:absolute;top:66px;left:0;right:0;background:#0a0a0e;border-bottom:1px solid var(--line);padding:18px 22px;flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a{padding:13px 0;border-bottom:1px solid var(--line);font-size:.78rem}.hero{min-height:93svh;padding:115px 0 55px;background-position:60% center;background-image:linear-gradient(90deg,rgba(5,5,7,.94),rgba(5,5,7,.7)),linear-gradient(0deg,var(--bg),transparent 45%),url('assets/premium-ua-hero.png')}.hero h1{font-size:clamp(4.7rem,21vw,7.5rem)}.hero-sub{font-size:.9rem}.hero-foot{gap:18px;margin-top:38px}.hero-foot strong{font-size:1.45rem}.scroll-mark{display:none}.founder-row{grid-template-columns:1fr}.founder-label{grid-column:auto}.member-grid{grid-template-columns:repeat(2,1fr);gap:10px}.member-card{padding:5px}.member-card:after{inset:5px}.member-card .member-note{padding:8px 5px;font-size:.58rem}.rules-grid,.data-grid{grid-template-columns:1fr}.rule{padding:20px}.data-card{padding:16px}.data-card strong{font-size:.85rem}.social-row .btn{flex:1;min-width:150px}.footer-inner{align-items:flex-start;flex-direction:column}.section-head h2{font-size:3.4rem}}
     @media(max-width:900px){.review-hero{grid-template-columns:1fr}.review-live{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:650px){.review-hero{gap:22px}.review-intro h3{font-size:2.7rem}.review-stats{gap:6px}.review-stat{gap:5px}.stat-icon{font-size:1.4rem}.review-stat strong{font-size:1.3rem}.review-stat small{font-size:.58rem}.review-live{grid-template-columns:1fr}.review-card{min-height:0}.review-card:nth-child(n+2){display:none}.reviews-list{padding:14px}.reviews-list-head{flex-direction:column}.reviews-frame{height:390px}}
         @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
-  </style>
+  
+    /* PREMIUM UA reviews — black and red theme matching the approved mockup */
+    .reviews-section{background:radial-gradient(ellipse at 50% 0%,#260000 0%,#080303 42%,#000 100%);border-block:1px solid #ff1b2d;}
+    .reviews-section:before{background:radial-gradient(ellipse at 8% 40%,#ff001b26,transparent 38%),radial-gradient(ellipse at 95% 10%,#ff001b22,transparent 32%);}
+    .reviews-section .review-hero{display:block;padding:0}
+    .reviews-title{text-align:center;padding:12px 0 26px}
+    .reviews-section .review-brand{color:#fff;margin-bottom:20px}
+    .reviews-section .review-brand span,.reviews-section .review-intro h3 span,.reviews-title h3 span{color:#ff2438;text-shadow:0 0 22px #ff243866}
+    .reviews-title h3{font:900 clamp(2.3rem,5vw,4rem)/1.03 "Barlow Condensed",sans-serif;margin:0 0 16px;color:#fff}
+    .reviews-title h3 span{display:block}
+    .reviews-title p{color:#ddd;line-height:1.7;margin:0}
+    .reviews-section .review-stats{max-width:740px;margin:0 auto 28px;padding:18px 12px;border:2px solid #ff1b2d;border-radius:20px;background:#050303dd;box-shadow:0 0 20px #ff001b45;gap:0}
+    .reviews-section .review-stat{justify-content:center;padding:0 10px;gap:12px;border-right:1px solid #ff243866}
+    .reviews-section .review-stat:last-child{border-right:0}
+    .reviews-section .stat-icon{color:#ff2438}
+    .reviews-section .review-stat:nth-child(2) .stat-icon,.reviews-section .review-stat:nth-child(3) .stat-icon{color:#ff2438}
+    .reviews-section .review-stat small{font-size:.78rem;color:#ddd}
+    .reviews-section .review-stat strong{color:#fff}
+    .reviews-section .review-live{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .reviews-section .review-card{min-height:168px;border:1px solid #ff2438;border-radius:13px;background:linear-gradient(145deg,#100606f5,#020202f8);box-shadow:inset 0 0 18px #ff00120b;}
+    .reviews-section .review-avatar{background:linear-gradient(135deg,#ff2438,#4b0008);border-color:#ff2438;color:#fff}
+    .reviews-section .review-person strong{color:#fff;font-size:.9rem}
+    .reviews-section .review-person small,.reviews-section .review-date{color:#bbb}
+    .reviews-section .review-quote{font-size:.88rem;color:#f1eeee;line-height:1.5}
+    .reviews-section .review-btn{display:inline-block;border-radius:14px;background:linear-gradient(100deg,#b90016,#ff2438);border:1px solid #ff4858;box-shadow:0 0 20px #ff001b66;color:#fff;padding:15px 28px;font-weight:800}
+    .review-action{text-align:center;padding:28px 0 6px}
+    .reviews-section .reviews-list{border:1px solid #ff2438;border-radius:14px;background:#050303e8;box-shadow:0 0 18px #ff001b20}
+    .reviews-section .reviews-list-head{align-items:center}
+    .reviews-section .reviews-list-head h4{color:#fff}
+    .reviews-section .reviews-list-head a{font-size:.75rem;color:#ff5362;text-decoration:none}
+    .reviews-section .reviews-frame{height:340px;border-color:#ff243855;background:#fff}
+    @media(max-width:700px){.reviews-section .review-live{grid-template-columns:1fr}.reviews-section .review-stats{padding:12px 2px}.reviews-section .review-stat{gap:5px;padding:0 5px}.reviews-section .review-stat small{font-size:.6rem}.reviews-section .review-stat strong{font-size:1.15rem}.reviews-section .stat-icon{font-size:1.3rem}}
+</style>
 </head>
 <body>
 <header class="nav">
@@ -97,7 +129,24 @@
     </div>
   </section>
 
-  <section class="section reviews-section" id="reviews"><div class="wrap"><div class="review-hero"><div class="review-intro"><div class="review-brand">👑 PREMIUM <span>UA</span></div><h3>Відгуки наших гравців.<span>Справжні емоції.</span></h3><p>Наші гравці — наша найбільша цінність. Дякуємо, що ви з нами!</p><a class="btn review-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScZ4YBAkmn3eCMxTW5loAakB7rNQLXT9OtLD4PJ0jzp0jZDRg/viewform?usp=header" target="_blank" rel="noopener">Додати свій відгук　➜</a><div class="review-stats"><div class="review-stat"><span class="stat-icon">●</span><div><strong>500+</strong><small>Відгуків</small></div></div><div class="review-stat"><span class="stat-icon">★</span><div><strong>4.9/5</strong><small>Середня оцінка</small></div></div><div class="review-stat"><span class="stat-icon">♡</span><div><strong>100%</strong><small>Рекомендують</small></div></div></div></div><div><div class="review-live"><article class="review-card"><div class="review-person"><span class="review-avatar">Z</span><div><strong>Zefir</strong><small>Гравець</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">«Гільдія, в якій хочеться залишатися! Розвиток, турніри, підтримка — все на найвищому рівні!»</p><time class="review-date">11.05.2025</time></article><article class="review-card"><div class="review-person"><span class="review-avatar">K</span><div><strong>Kira_UA</strong><small>Гравець</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">«Дуже подобається атмосфера в команді. Тут кожен важливий!»</p><time class="review-date">08.05.2025</time></article><article class="review-card"><div class="review-person"><span class="review-avatar">F</span><div><strong>Fenix</strong><small>Гравець</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">«Готова гільдія! Разом ми досягаємо великих цілей!»</p><time class="review-date">05.05.2025</time></article></div><div class="review-dots"><span></span><span></span><span></span><span></span><span></span></div></div></div><div class="reviews-list"><div class="reviews-list-head"><h4>Найкращі відгуки</h4><span>Відгуки з Google-форми</span></div><iframe class="reviews-frame" title="Відгуки гравців PREMIUM UA" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUNlMi42aMhO4s_3KVQSKysQ_fVKvpNRubww5tsODhVE2QiHYrtbr2m6IMifFDA7wRzov71nHFi5w3/pubhtml?gid=1656677011&amp;single=true&amp;widget=true&amp;headers=false" loading="lazy"></iframe><div class="review-note">Нові відгуки з форми з’являтимуться в таблиці після її оновлення.</div></div></div></section>
+  <section class="section reviews-section" id="reviews"><div class="wrap">
+    <div class="reviews-title"><div class="review-brand">👑 PREMIUM <span>UA</span></div><h3>Відгуки наших гравців.<span>Справжні емоції.</span></h3><p>Наші гравці — наша найбільша цінність. Дякуємо, що ви з нами!</p></div>
+    <div class="review-stats">
+      <div class="review-stat"><span class="stat-icon">▤</span><div><small>Відгуків</small><strong>6</strong></div></div>
+      <div class="review-stat"><span class="stat-icon">★</span><div><small>Середня оцінка</small><strong>5.0/5</strong></div></div>
+      <div class="review-stat"><span class="stat-icon">♧</span><div><small>Рекомендують</small><strong>100%</strong></div></div>
+    </div>
+    <div class="review-live">
+      <article class="review-card"><div class="review-person"><span class="review-avatar">З</span><div><strong>Запорізький</strong><small>28.10.2026 · 18:22:58</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Люди в цій гільдії неймовірні! Дуже крута гільдія. Рекомендую ❤️</p></article>
+      <article class="review-card"><div class="review-person"><span class="review-avatar">З</span><div><strong>Зефірка</strong><small>28.10.2026 · 18:29:47</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">найкраща гільдія, лідер Анні ❤️</p></article>
+      <article class="review-card"><div class="review-person"><span class="review-avatar">Р</span><div><strong>Ромочка Ahh</strong><small>28.10.2026 · 18:31:45</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Ахуненна гільдія 😍💪</p></article>
+      <article class="review-card"><div class="review-person"><span class="review-avatar">П</span><div><strong>Піздатий тіп</strong><small>28.10.2026 · 18:32:12</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Хто не з нами той під нами 😉</p></article>
+      <article class="review-card"><div class="review-person"><span class="review-avatar">❤️</span><div><strong>❤️</strong><small>28.10.2026 · 20:17:23</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Хто не з нами той під нами 😉</p></article>
+      <article class="review-card"><div class="review-person"><span class="review-avatar">V</span><div><strong>VaKa</strong><small>29.10.2026 · 15:51:49</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Я тут самий лінивий 😌</p></article>
+    </div>
+    <div class="review-action"><a class="btn review-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScZ4YBAkmn3eCMxTW5loAakB7rNQLXT9OtLD4PJ0jzp0jZDRg/viewform?usp=header" target="_blank" rel="noopener">✎　Додати свій відгук</a></div>
+    <div class="reviews-list"><div class="reviews-list-head"><h4>🌐 Відгуки з Google Форми</h4><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUNlMi42aMhO4s_3KVQSKysQ_fVKvpNRubww5tsODhVE2QiHYrtbr2m6IMifFDA7wRzov71nHFi5w3/pubhtml?gid=1656677011&amp;single=true" target="_blank" rel="noopener">Переглянути всі відгуки　→</a></div><iframe class="reviews-frame" title="Відгуки гравців PREMIUM UA" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSUNlMi42aMhO4s_3KVQSKysQ_fVKvpNRubww5tsODhVE2QiHYrtbr2m6IMifFDA7wRzov71nHFi5w3/pubhtml?gid=1656677011&amp;single=true&amp;widget=true&amp;headers=false" loading="lazy"></iframe></div>
+  </div></section>
 
   <section class="section wars" id="checks">
     <div class="wrap">
