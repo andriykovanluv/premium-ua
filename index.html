@@ -102,6 +102,13 @@
   #reviews .review-live > article { min-height: 0 !important; padding: 18px !important; }
 }
 
+  
+    .reviews-section{background:linear-gradient(145deg,#100508,#08080b 65%);border-block:1px solid #ff243855}
+    .review-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:30px 0 28px;padding:18px 20px;border:1px solid var(--red);border-radius:18px;background:#090609;box-shadow:0 0 22px #ff243822}
+    .review-stat{display:flex;align-items:center;justify-content:center;gap:12px;min-width:0;border-right:1px solid #ffffff20}.review-stat:last-child{border:0}.stat-icon{font-size:1.8rem;color:var(--red)}.review-stat:nth-child(2) .stat-icon{color:var(--gold)}.review-stat strong{display:block;font:900 clamp(1.4rem,3vw,2rem) "Barlow Condensed",sans-serif;white-space:nowrap}.review-stat small{display:block;color:var(--muted);font-size:.72rem}
+    .review-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}.review-btn{border-radius:8px;clip-path:none;background:linear-gradient(110deg,#b90020,#ff2438);border:1px solid #ff5364;padding:15px 24px}.review-view-btn{clip-path:none;border-radius:8px;padding:15px 24px;border-color:#ff5364;color:#fff}
+    @media(max-width:650px){.review-stats{padding:14px 8px;gap:4px}.review-stat{gap:6px}.review-stat small{font-size:.58rem}.stat-icon{font-size:1.25rem}.review-actions{flex-direction:column}.review-actions .btn{width:100%}}
+
   </style>
 </head>
 <body>
@@ -173,22 +180,16 @@
   </section>
 
   <section class="section reviews-section" id="reviews"><div class="wrap">
-    <div class="reviews-title"><div class="review-brand">👑 PREMIUM <span>UA</span></div><h3>Відгуки наших гравців.<span>Справжні емоції.</span></h3><p>Наші гравці — наша найбільша цінність. Дякуємо, що ви з нами!</p></div>
+    <div class="section-head"><span class="eyebrow">ДУМКА НАШОЇ СПІЛЬНОТИ</span><h2>Відгуки <span>гравців</span></h2><p>Справжні емоції та враження учасників PREMIUM UA.</p></div>
     <div class="review-stats">
-      <div class="review-stat"><span class="stat-icon">▤</span><div><small>Відгуків</small><strong>6</strong></div></div>
+      <div class="review-stat"><span class="stat-icon">▤</span><div><small>Відгуків</small><strong>8</strong></div></div>
       <div class="review-stat"><span class="stat-icon">★</span><div><small>Середня оцінка</small><strong>5.0/5</strong></div></div>
-      <div class="review-stat"><span class="stat-icon">♧</span><div><small>Рекомендують</small><strong>100%</strong></div></div>
+      <div class="review-stat"><span class="stat-icon">♧</span><div><small>Рекомендують гравці</small><strong>100%</strong></div></div>
     </div>
-    <div class="review-live">
-      <article class="review-card"><div class="review-person"><span class="review-avatar">З</span><div><strong>Запорізький</strong><small>28.10.2026 · 18:22:58</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Люди в цій гільдії неймовірні! Дуже крута гільдія. Рекомендую ❤️</p></article>
-      <article class="review-card"><div class="review-person"><span class="review-avatar">З</span><div><strong>Зефирка</strong><small>28.10.2026 · 18:29:47</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">найкраща гільдія, лідер Анні ❤️</p></article>
-      <article class="review-card"><div class="review-person"><span class="review-avatar">Р</span><div><strong>Ромочка Ahh</strong><small>28.10.2026 · 18:31:45</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Ахуненна гільдія 😍💪</p></article>
-      <article class="review-card"><div class="review-person"><span class="review-avatar">П</span><div><strong>Піздатий тіп</strong><small>28.10.2026 · 18:32:12</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Хто не з нами той під нами 😉</p></article>
-      <article class="review-card"><div class="review-person"><span class="review-avatar">❤️</span><div><strong>❤️😘</strong><small>28.10.2026 · 20:17:23</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Оцінка гравця — 5 із 5 зірок.</p></article>
-      <article class="review-card"><div class="review-person"><span class="review-avatar">С</span><div><strong>Сашуляю</strong><small>30.10.2026 · 01:32:01</small></div></div><div class="review-stars">★★★★★</div><p class="review-quote">Оцінка гравця — 5 із 5 зірок.</p></article>
+    <div class="review-actions">
+      <a class="btn review-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScZ4YBAkmn3eCMxTW5loAakB7rNQLXT9OtLD4PJ0jzp0jZDRg/viewform?usp=header" target="_blank" rel="noopener">✎　ЗАЛИШИТИ ВІДГУК</a>
+      <a class="btn outline review-view-btn" href="reviews.html">☷　ПЕРЕГЛЯНУТИ ВІДГУКИ</a>
     </div>
-    <div class="review-action"><a class="btn review-btn" href="https://docs.google.com/forms/d/e/1FAIpQLScZ4YBAkmn3eCMxTW5loAakB7rNQLXT9OtLD4PJ0jzp0jZDRg/viewform?usp=header" target="_blank" rel="noopener">✎　Додати свій відгук</a></div>
-
   </div></section>
 
   <section class="section wars" id="checks">
